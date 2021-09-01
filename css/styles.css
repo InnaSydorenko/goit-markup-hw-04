@@ -478,11 +478,33 @@ footer .container {
 }
 
 .header-logo-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
   display: block;
   color: #ffffff;
-  padding: 0 0 0 0;
+  padding: 0;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+
+.header-logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.header-logo-logo:hover,
+.header-logo-logo:focus {
+  color: var(--accent-color);
 }
 
 .footer {
