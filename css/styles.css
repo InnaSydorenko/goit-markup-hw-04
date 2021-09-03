@@ -173,9 +173,8 @@ img {
   padding-bottom: 32px;
 }
 .header-right-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  align-items: baseline;
 }
 
 .header-right-item:not(:last-child) {
